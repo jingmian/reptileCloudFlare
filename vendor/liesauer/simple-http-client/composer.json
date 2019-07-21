@@ -1,0 +1,21 @@
+{
+    "name": "liesauer/simple-http-client",
+    "description": "SimpleHttpClient",
+    "license": "MIT",
+    "author": [
+        {
+            "name": "LiesAuer",
+            "email": "liesauer@hotmail.com",
+            "homepage": "http://www.liesauer.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "liesauer\\": "src/"
+        }
+    }
+}
